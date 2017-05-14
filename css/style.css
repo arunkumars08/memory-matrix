@@ -1,0 +1,38 @@
+.memory-matrix {
+    position: relative;
+    width: 80%;
+    height: 1000px;
+    margin: 2% auto;
+    background: #fff;
+}
+
+.score-board {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.block {
+    float: left;
+    box-shadow: 1px 1px 10px 1px #ededed;
+}
+
+.open {
+    background: #000;
+}
+
+.correct {
+    background: GREEN;
+}
+
+.wrong {
+    background: RED;
+}
