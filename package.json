@@ -4,7 +4,8 @@
   "description": "A simple memory game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-serve -p 8081"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/arunkumars08/memory-matrix/issues"
   },
-  "homepage": "https://github.com/arunkumars08/memory-matrix#readme"
+  "homepage": "https://github.com/arunkumars08/memory-matrix#readme",
+  "devDependencies": {
+    "http-serve": "^1.0.1",
+    "webpack": "^3.8.1"
+  }
 }
