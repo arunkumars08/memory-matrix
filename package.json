@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-serve -p 8081"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,7 @@
     "url": "https://github.com/arunkumars08/memory-matrix/issues"
   },
   "homepage": "https://github.com/arunkumars08/memory-matrix#readme",
-  "devDependencies": {
-    "http-serve": "^1.0.1",
-    "webpack": "^3.8.1"
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
