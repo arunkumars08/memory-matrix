@@ -1,0 +1,25 @@
+{
+  "name": "memory-matrix",
+  "version": "1.0.0",
+  "description": "A simple memory game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunkumars08/memory-matrix.git"
+  },
+  "keywords": [
+    "memory",
+    "matrix",
+    "app",
+    "game"
+  ],
+  "author": "Arunkumar Srisailapathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunkumars08/memory-matrix/issues"
+  },
+  "homepage": "https://github.com/arunkumars08/memory-matrix#readme"
+}
